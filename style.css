@@ -130,3 +130,70 @@ footer{
     transform:translateY(-8px);
     box-shadow:0 0 20px rgba(212,175,55,.35);
 }
+/* ===== Premium Black & Gold Theme ===== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+    background:#0f0f0f;
+    color:#fff;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h1,h2,h3{
+    color:#D4AF37;
+}
+
+p{
+    color:#d6d6d6;
+    line-height:1.8;
+}
+
+#hero{
+    background:linear-gradient(135deg,#000,#1a1a1a,#000);
+    text-align:center;
+    padding:100px 20px;
+}
+
+#about,
+#services,
+#why{
+    background:#151515;
+}
+
+.card{
+    background:#1f1f1f;
+    border:1px solid #D4AF37;
+    border-radius:15px;
+    padding:25px;
+    margin:20px 0;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(212,175,55,.4);
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:15px 0;
+}
+
+img.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #D4AF37;
+    object-fit:cover;
+    display:block;
+    margin:20px auto;
+}
